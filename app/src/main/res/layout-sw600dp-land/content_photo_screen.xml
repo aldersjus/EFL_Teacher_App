@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/photoLayout"
+    tools:context="jp.blogspot.jusoncode.adverbialtwo.PhotoScreen">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/studentphoto"
+            android:id="@+id/textViewPhoto"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:textSize="48dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/photoScreenImageView"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button"
+            android:text="@string/studentphototake"
+            android:id="@+id/buttonPhoto"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="20dp"
+            android:onClick="getName"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewNewPhotoMessage"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:text=""
+            android:textColor="#000"
+            />
+
+        <Spinner
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:textSize="18dp"
+            android:id="@+id/spinnerPhoto"
+            android:layout_marginStart="62dp"
+            android:layout_marginEnd="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/spinner_border"
+            android:layout_marginTop="0dp"
+            >
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/studentphotoenter"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textPhotoTwo"
+            android:layout_marginStart="43dp"
+            android:textSize="22dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="88dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="20dp">
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button"
+                android:text="@string/rotate_image"
+                android:id="@+id/buttonPhotoRotate"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.Button"
+                android:text="@string/studentphotodelete"
+                android:id="@+id/buttonPhotoDelete"
+                android:layout_gravity="center_horizontal"
+                android:textSize="22dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:layout_marginStart="17dp"
+                android:onClick="deletePhoto"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

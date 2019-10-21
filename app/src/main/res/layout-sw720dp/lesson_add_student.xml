@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/addStudent"
+        android:id="@+id/textViewAddStudent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000"
+        android:id="@+id/textViewAddStudentMessage"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/textViewAddStudent"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout4"
+        android:layout_below="@+id/textViewAddStudentMessage"
+        android:layout_centerHorizontal="true">
+
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:id="@+id/spinnerLessonAddStudent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/spinner_border"
+            >
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/select_name_lesson"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:inputType="textCapWords"
+            android:id="@+id/editTextAddStudentTwo"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/enterStudentName"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView5"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button"
+            android:text="@string/addStuToLess"
+            android:id="@+id/buttonAddStudent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:textSize="22dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

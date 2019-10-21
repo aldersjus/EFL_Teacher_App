@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/deleteStudent"
+        android:id="@+id/textViewDeleteStudent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="48dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/deleteStudentMessage"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:textSize="22dp"/>
+
+
+    <Spinner
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:textSize="22dp"
+        android:id="@+id/spinnerDeleteStudent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/spinner_border"
+        >
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_name_student"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView11"
+        android:textSize="22dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/checkboxDeleteStudent"
+        android:text="@string/yes_delete"
+        android:textSize="22dp"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:text="@string/deleteStudent"
+        android:layout_marginTop="90dp"
+        android:id="@+id/buttonDeleteStudent"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22dp"
+        android:padding="20dp"
+        />
+
+</LinearLayout>

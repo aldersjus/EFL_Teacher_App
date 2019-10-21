@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/navDrawStudent"
+            >
+             <menu>
+                <item
+                    android:icon="@drawable/ic_content_paste_black_24dp"
+                    android:id="@+id/student_report"
+                    android:title="@string/navDrawStudentReport" />
+                <item
+                     android:icon="@drawable/ic_chat_bubble_outline_black_24dp"
+                     android:id="@+id/student_comment"
+                     android:title="@string/navDrawStudentComment" />
+                 <item
+                     android:icon="@drawable/ic_assessment_black_24dp"
+                     android:id="@+id/student_grades"
+                     android:title="@string/navDrawGrades" />
+                <item
+                     android:icon="@drawable/ic_person_add_black_24dp"
+                     android:id="@+id/student_new"
+                     android:title="@string/navDrawNewStudent" />
+                <item
+                     android:icon="@drawable/ic_content_cut_black_24dp"
+                     android:id="@+id/student_delete"
+                     android:title="@string/navDrawDeleteStudent" />
+                 <item
+                     android:icon="@drawable/ic_party_mode_black_24dp"
+                     android:id="@+id/student_photo"
+                     android:title="@string/navDrawPhoto" />
+            </menu>
+        </item>
+
+
+    <item
+
+        android:title="@string/navDrawLesson"
+      >
+        <menu>
+            <item
+                android:icon="@drawable/ic_content_paste_black_24dp"
+                android:id="@+id/lesson_info"
+                android:title="@string/navDrawInfo"
+                />
+            <item
+                android:icon="@drawable/ic_done_black_24dp"
+                android:id="@+id/lesson_mark_off"
+                android:title="@string/navDrawMarkOff" />
+            <item
+                android:icon="@drawable/ic_plus_one_black_24dp"
+                android:id="@+id/lesson_add_student"
+                android:title="@string/navDrawAddStu" />
+            <item
+                android:icon="@drawable/ic_group_add_black_24dp"
+                android:id="@+id/lesson_new_group"
+                android:title="@string/navDrawNewGroup" />
+            <item
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:id="@+id/lesson_new_man"
+                android:title="@string/navDrawIndividual" />
+            <item
+                android:icon="@drawable/ic_content_cut_black_24dp"
+                android:id="@+id/lesson_delete"
+                android:title="@string/navDrawDeleteLesson" />
+        </menu>
+    </item>
+
+
+            <item
+            android:title="@string/navDrawSchool">
+            <menu>
+                <item
+                    android:icon="@drawable/ic_people_black_24dp"
+                    android:id="@+id/school_students"
+                    android:title="@string/navDrawSchoolStudents" />
+                <item
+                    android:icon="@drawable/ic_local_library_black_24dp"
+                    android:id="@+id/school_lessons"
+                    android:title="@string/navDrawSchoolLessons" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

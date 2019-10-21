@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/createNewStu"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textSize="50dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textViewNewStudentMessage"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:id="@+id/editTextStudentNew"
+        android:maxLines="1"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/enStuNameAbove"
+        android:id="@+id/textView13"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_to_contacts"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/studentCheckBox"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/addKids"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/studentCheckBoxKid"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:text="@string/createNewStu"
+        android:id="@+id/buttonStudentNew"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:layout_marginTop="80dp" />
+
+
+</LinearLayout>

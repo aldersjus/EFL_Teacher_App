@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/new_individual_lesso_XL"
+        android:id="@+id/textViewMtoM"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text=""
+        android:id="@+id/textViewLessonNewMMMessage"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:inputType="textCapWords"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/editMtoM"
+        android:layout_marginTop="30dp"
+        android:maxLines="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/enterLessonName"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_to_contacts"
+        android:id="@+id/lessonCheckBoxAddToContacts"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/addKids"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/checkBoxKidIndividualCreateKids"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button"
+        android:text="@string/createNewLess"
+        android:id="@+id/buttonMtoM"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="80dp"
+        />
+
+
+</LinearLayout>
