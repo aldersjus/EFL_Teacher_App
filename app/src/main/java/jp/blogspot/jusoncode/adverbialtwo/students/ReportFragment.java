@@ -70,12 +70,7 @@ public class ReportFragment extends Fragment {
         shareButton = (Button) view.findViewById(R.id.shareButton);
         iv = (ImageView) view.findViewById(R.id.imageView);
 
-
-        //Todo implement this, method below...
         barChart = (BarChart)view.findViewById(R.id.chart);
-
-
-
 
         if(nameCap != null){
             if(HomeScreen.imagesHome.get(nameCap) != null) {
