@@ -11,7 +11,7 @@ around the edges. However, it works without any issues. This app has spent a few
 mild success. I learnt a lot from the creation of this app, the complete process of being an app developer.
 
 <p align="center">
-  <img src="https://github.com/aldersjus/EFL_Teacher_App/tree/master/app/github/store.png"/>
+  <img src="https://github.com/aldersjus/EFL_Teacher_App/blob/master/app/github/store.png"/>
 </p>
 
 
