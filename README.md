@@ -2,7 +2,7 @@
 An Android application for recording student progress for EFL teachers.
 
 <p align="center">
-  <img src="https://github.com/aldersjus/EFL_Teacher_App/tree/master/app/github/android.png"/>
+  <img src="https://github.com/aldersjus/EFL_Teacher_App/blob/master/app/github/android.png"/>
 </p>
 
 This application was created a few years ago. It is a record system fo EFL teachers to monitor the progress of the 
